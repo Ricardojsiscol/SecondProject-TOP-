@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Header*/
+header{
+	background-color: #1F2937;
+	padding: 10px 200px 50px 200px;
+}
+
+header div{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+header ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: left;
+	gap: 20px;
+}
+
+a{
+	font-size: 18px;
+	text-decoration: none;
+	color: #E5E7EB;
+}
+
+.left-h{
+	max-width: 400px;
+	margin-right: 40px;
+	flex-direction: column;
+	justify-content:center;
+	gap: 20px;
+	flex: 1;
+	flex-wrap: wrap;
+}
+
+.left-h p{
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+h1{
+	font-size: 48px;
+	color: #F9FAF8;
+	font-weight: bolder;
+}
+
+.signup{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #3882F6;
+	color: white;
+	width: 120px;
+	height: 35px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+#laptop-pic{
+	flex: 1;
+}
+/* Main */
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px auto;
+	gap: 50px;
+}
+h2{
+	font-weight: bolder;
+	font-size: 36px;
+	color: #1F2937;
+	width: 500px;
+	text-align: center;
+}
+
+.images{
+	width: 700px;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.images img{
+	width: 150px;
+	border-radius: 10px;
+	border: 3px solid #3882F6;
+}
+figure{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+figcaption{
+	color: #7c7d7f;
+	text-align: center;	
+}
+
+blockquote{
+	margin: 50px 0 auto auto;
+	color: #1F2937;
+	background-color: #E5E7EB;
+	padding: 100px 300px;
+	font-size: 36px;
+	font-weight: lighter;
+	font-style: italic;
+	text-align: justify;
+}
+
+blockquote span{
+	font-size: 23px;
+	font-weight: bolder;
+	color: black;
+	display: block;
+	text-align: right;
+}
+
+.signup-main{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #3882F6;
+	width: 1000px;
+	padding: 40px 120px;
+	border-radius: 10px;
+	color: white;
+}
+
+.signup-main a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid white;
+	border-radius: 10px;
+	width: 100px;
+	height: 30px;
+	font-weight: bold;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #1F2937;
+	height: 100px;
+	color: white;
+}
